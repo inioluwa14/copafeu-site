@@ -3,29 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <!-- <link href="./src/output.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="shortcut icon" href="./img/COPAFEU-logo-vertical.png" type="image/x-icon">
   <title>COPAFEU</title>
 </head>
-<body>
-    <body class="font-sans antialiased bg-gray-50">
+<body class="font-sans antialiased bg-gray-50">
 
         <!-- Navbar Section -->
         <nav class="bg-orange-300 p-4 fixed w-full z-10 top-0 shadow-lg">
             <div class="container mx-auto px-8 flex justify-between items-center">
                 <div class="flex">
                     <div class="flex items-center">
-                        <a>
                         <img class="w-auto h-8" src="./img/COPAFEU-logo.png" alt="copafeu logo">
-                        </a>
                     </div>
                     <div>
                         <img class="w-auto h-8" src="./img/ui-logo.png" alt="ui logo">
                     </div>
                 </div>
-                <div>
-                    
-                </div>
+               
                 <div class="hidden md:flex ">
                     <a href="#" class="text-white text-2xl font-bold">COPAFEU x The University of Ibadan</a>
                 </div>
@@ -56,11 +52,11 @@
         </nav>
     
         <!-- Header Section (Carousel) -->
-        <header class="bg-cover bg-center h-screen" style="background-image: url('./img/a\ new\ thing.jpg');">
+        <header class="bg-cover bg-center h-screen" style="background-image: url('./img/hero_img.jpg');">
             <div class="flex justify-center items-center h-full bg-black bg-opacity-50">
                 <div class="text-center text-white">
-                    <h1 class="text-5xl md:text-6xl font-bold">Welcome to ProjectName</h1>
-                    <p class="text-xl mt-4">Innovating for a better tomorrow</p>
+                    <h1 class="text-5xl md:text-6xl font-bold">Welcome to COPAFEU</h1>
+                    <p class="text-xl mt-4">Co-Producing Knowledge on Sustainable Growth through Service Learning Pedagogy between African and European HEIs Project </p>
                     <br><br>
                     <a href="#about" class="mt-8 bg-orange-300 text-white px-6 py-3 rounded-full hover:bg-orange-500 transition duration-300">Learn More</a>
                 </div>
@@ -74,23 +70,52 @@
                 <p class="text-center text-gray-700 max-w-2xl mx-auto mb-12">
                     Our project is dedicated to providing sustainable solutions for everyday challenges. We believe in the power of innovation and collaboration to create a better future.
                 </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Mission</h3>
-                        <p class="text-gray-600">To innovate and design solutions that help make a lasting impact on society.</p>
-                    </div>
-                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Vision</h3>
-                        <p class="text-gray-600">Creating a sustainable and equitable future through technology and collaboration.</p>
-                    </div>
-                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Values</h3>
-                        <p class="text-gray-600">Innovation, sustainability, and community development are at the core of everything we do.</p>
-                    </div>
-                    
-                </div>
+                <!-- <div class="flex"> -->
+                    <div class="flex flex-col p-5 w-full md:flex-row gap-4 "> 
+                        <div class="bg-blue-100 p-6 rounded-lg shadow-lg w-full md:w-1/2">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Objectives</h3>
+                            <p class="text-gray-600">
+                                • Improve skills of HEI staff members in implementing an enhanced Service-Learning 
+                                (E-SL) method, including the production of digital open-access teaching material.
+                            </p><br/>    
+                            <p class="text-gray-600">
+                                • Improve the practical working skills of HEI students through enhanced ServiceLearning (E-SL) to increase their employability in the local and global labour market
+                            </p><br/>  
+                            <p class="text-gray-600"> • Improve skills of HEI students in producing digital cases and open educational 
+                                resources (OER ) as part of their work in E-SL projects
+                            </p><br/>
+                            <p class="text-gray-600">  • Enhance inter-African HEI collaboration capacity through shared E-SL projects and 
+                                through dissemination and uptake of E-SL open access teaching material into other 
+                                courses/programs 
+                            </p><br/>
+                            <p class="text-gray-600">   • Create shared value and enhancing the knowledge on new opportunities for 
+                                sustainable growth of local E-SL beneficiaries (such as private firms, innovation hubs, 
+                                entrepreneurs, NGOs and other non-academic actors in the local labour market) and 
+                                enhancing HEI and community relations through E-SL projects 
+                            </p>
+                        </div>
+                        <div class="bg-blue-100 p-6 rounded-lg shadow-lg w-full md:w-1/2">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Deliverables</h3>
+                            <p class="text-gray-600">
+                                • Improvement in teaching capacity of lecturers/trainers/personnel through North-South collaboration.
+                            </p><br>
+                            <p class="text-gray-600">• Sharpening of entrepreneurial skills of the students.</p><br/>
+                            <p class="text-gray-600">• Co-creation of sustainable jobs for the students.</p><br/> 
+                            <p class="text-gray-600">• Provision of healthy food in the country through organic/agroecology farming.</p>
+                        </div>
+                        <!-- <div class="bg-blue-100 p-6 rounded-lg shadow-lg w-full md:w-1/2">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Deliverables</h3>
+                            <p class="text-gray-600">
+                                • Improvement in teaching capacity of lecturers/trainers/personnel through North-South collaboration.
+                            </p><br>
+                            <p class="text-gray-600">• Sharpening of entrepreneurial skills of the students.</p><br/>
+                            <p class="text-gray-600">• Co-creation of sustainable jobs for the students.</p><br/> 
+                            <p class="text-gray-600">• Provision of healthy food in the country through organic/agroecology farming.</p>
+                        </div> -->
+                    </div>                    
+                <!-- </div> -->
                 <div class="flex justify-center mt-5">
-                    <button>Learn More</button>
+                    <button class="bg-orange-300 text-white px-6 py-3 rounded-full hover:bg-orange-500 transition duration-300">Learn More</button>
                 </div>
             </div>
         </section>
@@ -101,13 +126,13 @@
                 <h2 class="text-4xl font-bold text-center mb-8 text-blue-600">Gallery</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <!-- <div class="flex justify-between"> -->
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    <img src="https://via.placeholder.com/400" alt="Gallery Image" class="rounded-lg shadow-lg">
-                    </div>
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                    <img src="./img//hero_img.jpg" alt="Gallery Image" class="rounded-lg shadow-lg">
+                </div>
                 <!-- </div> -->
             </div>
         </section>
